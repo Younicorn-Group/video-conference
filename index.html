@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="styles/fontawesome.min.css"> -->
+  <link rel="stylesheet" href="styles/all.min.css">
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Company Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto fw-bold d-flex align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active me-4" aria-current="page" href="#">Meeting Room</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-4" href="#">Create</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-4" href="#">Join</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center" href="#">
+                <img src="/img/john.png" width="40" class="rounded-circle me-3" alt="">
+                <div class="name">John Doe</div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fa-2x" href="#"><i class="fa fa-cog"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="main bg-dark" id="main">
+    <div class="inside-main d-flex">
+      <iframe src="/vid/Portfolio_Younicorn_Digitals.mp4" frameborder="0"></iframe>
+
+      <div class="side-bar">
+        <button class="btn btn-sm btn-secondary rounded-circle mt-4 ms-4 position-fixed start-0" type="button"
+          data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft"><i
+            class="fa fa-arrow-right"></i></button>
+
+        <div class="offcanvas offcanvas-start" tabindex="1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+          <div class="offcanvas-header bg-dark p-3">
+            <h5 class="mb-0 text-white fw-bolder">Company Name</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="event-description text-white bg-secondary p-3 mb-3">
+              <h5 class="text-center fw-bold py-3 border-bottom">Event Description</h5>
+              <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde minima quam nesciunt,
+                dignissimos cumque odit! Eaque vel nam unde cupiditate ab perspiciatis, corporis quasi minus blanditiis
+                odio harum officia iure, dolorum deserunt quis iste? Fuga voluptate sunt saepe temporibus, nisi
+                consequatur ipsa laborum provident incidunt quia dolor quis tempora!</p>
+            </div>
+            <div class="schedule text-white bg-secondary p-3 mb-3">
+              <h5 class="text-center fw-bold py-3 border-bottom">Schedule</h5>
+              <div class="schedule-container">
+                <button class="btn btn-warning fw-bold w-100 d-flex justify-content-between align-items-center p-3 my-3">
+                  <div class="title">Marketing Team Meeting</div>
+                  <div class="time">9:00 - 10:00</div>
+                </button>
+                <button class="btn btn-success fw-bold w-100 d-flex justify-content-between align-items-center p-3 my-3">
+                  <div class="title">Technical Team Meeting</div>
+                  <div class="time">10:00 - 11:00</div>
+                </button>
+                <button class="btn btn-light fw-bold w-100 d-flex justify-content-between align-items-center p-3 my-3">
+                  <div class="title">Board Meeting</div>
+                  <div class="time">11:00 - 12:00</div>
+                </button>
+                <button class="btn btn-light fw-bold w-100 d-flex justify-content-between align-items-center p-3 my-3">
+                  <div class="title">Board Meeting</div>
+                  <div class="time">12:00 - 13:00</div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-side bg-secondary">
+        <div class="container-fluid">
+          <div class="items my-3">
+            <button class="btn btn-dark py-2 fw-bolder w-100" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+              Contacts
+            </button>
+            <div class="collapse show" id="collapseExample1">
+              <div class="card card-body p-0 border-0">
+                <div class="contact d-flex justify-content-between align-items-center p-2 bg-light mb-1">
+                  <img src="/img/john.png" alt="" width="50" class="rounded-3">
+                  <div class="name-details">
+                    <div class="name fw-bold">John Doe</div>
+                  </div>
+                  <div class="interactive-buttons">
+                    <button class="btn btn-success me-2"><i class="fa fa-plus"></i></button>
+                    <button class="btn btn-warning"><i class="fa fa-comment-alt"></i></button>
+                  </div>
+                </div>
+                <div class="contact d-flex justify-content-between align-items-center p-2 bg-light mb-1">
+                  <img src="/img/jane.png" alt="" width="50" class="rounded-3">
+                  <div class="name-details">
+                    <div class="name fw-bold">Jane Doe</div>
+                  </div>
+                  <div class="interactive-buttons">
+                    <button class="btn btn-success me-2"><i class="fa fa-plus"></i></button>
+                    <button class="btn btn-warning"><i class="fa fa-comment-alt"></i></button>
+                  </div>
+                </div>
+                <div class="contact d-flex justify-content-between align-items-center p-2 bg-light mb-1">
+                  <img src="/img/jane.png" alt="" width="50" class="rounded-3">
+                  <div class="name-details">
+                    <div class="name fw-bold">Jane Doe</div>
+                  </div>
+                  <div class="interactive-buttons">
+                    <button class="btn btn-success me-2"><i class="fa fa-plus"></i></button>
+                    <button class="btn btn-warning"><i class="fa fa-comment-alt"></i></button>
+                  </div>
+                </div>
+                <div class="contact d-flex justify-content-between align-items-center p-2 bg-light">
+                  <img src="/img/jane.png" alt="" width="50" class="rounded-3">
+                  <div class="name-details">
+                    <div class="name fw-bold">Jane Doe</div>
+                  </div>
+                  <div class="interactive-buttons">
+                    <button class="btn btn-success me-2"><i class="fa fa-plus"></i></button>
+                    <button class="btn btn-warning"><i class="fa fa-comment-alt"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="items my-3">
+            <button class="btn btn-dark py-2 fw-bolder w-100" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+              Chats
+            </button>
+            <div class="collapse show h-100" id="collapseExample2">
+              <div class="card card-body" style="height: 350px;">
+                <div class="chat-box d-flex align-items-end h-100">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Start Typing ...">
+                  <button class="btn btn-success"><i class="fa fa-search"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="text-center">
+    <div>Copyright &copy; 2021 <strong>Company Name</strong>. All Rights Reserved</div>
+  </footer>
+  <!-- Additional JS -->
+  <script type="text/javascript" src="/main.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/all.min.js"></script>
+</body>
+
+</html>

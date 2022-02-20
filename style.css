@@ -1,0 +1,50 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Reset */
+#header{
+    /* position: fixed; */
+    z-index: 1;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+.about-company{
+    padding: 90px 270px;
+}
+#team{
+    padding: 120px 0;
+}
+.image{
+    border-radius: 50px;
+}
+iframe{
+    width: 75%;
+}
+.right-side{
+    width: 25%;
+    height: 100%;
+    overflow: scroll;
+}
+.name{
+    font-size: 15px;
+}
+/* .text{
+    border-left: 7px solid white;
+} */
+/* Footer */
+footer{
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    color: #fff;
+    background-color: black;
+}
+/* Footer */
